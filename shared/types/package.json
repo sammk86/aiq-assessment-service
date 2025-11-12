@@ -1,0 +1,26 @@
+{
+  "name": "@aiq-platform/shared-types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript types for AI Maturity Assessment Platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "types",
+    "typescript",
+    "shared"
+  ],
+  "author": "",
+  "license": "PROPRIETARY",
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
+
